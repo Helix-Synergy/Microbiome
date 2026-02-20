@@ -51,10 +51,10 @@ const EventSchedule = ({ height, name, link }) => {
       <p className="text-3xl font-semibold text-black">Event Schedule</p>
 
       {/* Day selection buttons */}
-    <div className="flex flex-wrap justify-center gap-4 my-6  bg-one/20 h-auto p-4 rounded-2xl shadow-lg backdrop-blur-sm">
-
+      <div className="flex flex-wrap justify-center gap-4 my-6  bg-one/20 h-auto p-4 rounded-2xl shadow-lg backdrop-blur-sm">
         {[1, 2].map((day) => (
           <button
+            aria-label="Button"
             key={day}
             onClick={() => setSelectedDay(day)}
             className={`flex items-center gap-3 px-4 py-2 rounded-full border border-accent/40 text-xs md:text-sm font-medium shadow-[0_4px_20px_rgba(0,0,0,0.1)] transition-all duration-300 ${
@@ -105,17 +105,16 @@ const EventSchedule = ({ height, name, link }) => {
         ) : (
           <Link>
           {/* // <Link to={link}> */}
-            <button className="bg-one text-white px-10 md:px-10 py-2 rounded-full mt-10 text-sm md:text-base hover:bg-accent transition">
-              Download
-            </button>
-          {/* </Link> */}
-       {/* ))} } */}
+      <button className="bg-one text-white px-10 md:px-10 py-2 rounded-full mt-10 text-sm md:text-base hover:bg-accent transition">
+        Download
+      </button>
+      {/* </Link> */}
+      {/* ))} } */}
     </div>
   );
 };
 
 export default EventSchedule;
-
 
 // // For Conferences use the above code ( for single schedule.)
 

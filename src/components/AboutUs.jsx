@@ -32,7 +32,7 @@ loading="lazy"
           <span className="text-one">Advancing Global Leadership  </span>{" "}
   in  Microbiome Therapeutics
         </h1>
-        <p className="text-base my-2">
+        <p className="text-base my-2 text-justify">
         Welcome to the   <Link to="https://helixconferences.com/buy-a-ticket"  className="
              hover:text-accent hover:decoration-accent
              transition-colors duration-300">Microbiome Therapeutics Summit,</Link>  the premier global platform uniting leading experts and decision-makers in microbiome research and therapeutic innovation. This summit fosters collaboration among researchers, clinicians, bioengineers, industry leaders, and policymakers to explore cutting-edge advances in microbiome-based therapies, precision medicine, and biotechnologies that transform human, animal, and environmental health.
