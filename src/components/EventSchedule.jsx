@@ -69,11 +69,11 @@ const EventSchedule = ({ height, name, link }) => {
             <p className="text-base md:text-lg font-semibold text-white drop-shadow-sm">
               {day === 1 ? (
                 <>
-                  25<sup></sup> June 2026
+                  29<sup></sup> June 2027
                 </>
               ) : (
                 <>
-                  26<sup></sup> June 2026
+                  30<sup></sup> June 2027
                 </>
               )}
             </p>

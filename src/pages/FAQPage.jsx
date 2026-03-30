@@ -10,22 +10,22 @@ const faqLinks = {
 
 export const faqData = [
   {
-    question: "What is MICROBIOME-2026?",
+    question: "What is MICROBIOME-2027?",
     answer:
-      "MICROBIOME-2026, officially titled the “Microbiome Therapeutics Summit”, is a premier international forum organized by Helix Conferences. It brings together researchers, clinicians, biotech innovators, industry leaders, startups, and policymakers to explore advances in microbiome research, therapeutics, diagnostics, precision medicine, and host–microbiome interactions.",
+      "MICROBIOME-2027, officially titled the “Microbiome Therapeutics Summit”, is a premier international forum organized by Helix Conferences. It brings together researchers, clinicians, biotech innovators, industry leaders, startups, and policymakers to explore advances in microbiome research, therapeutics, diagnostics, precision medicine, and host–microbiome interactions.",
   },
   {
-    question: "When and where will MICROBIOME-2026 take place?",
+    question: "When and where will MICROBIOME-2027 take place?",
     answer:
-      "MICROBIOME-2026 will take place in 2026. The exact dates and venue will be announced soon.",
+      "MICROBIOME-2027 will take place in 2027. The exact dates and venue will be announced soon.",
   },
   {
-    question: "What are the highlights of MICROBIOME-2026?",
+    question: "What are the highlights of MICROBIOME-2027?",
     answer:
       "Keynote talks by global microbiome experts, clinical and translational research presentations, microbiome therapeutics showcases, panel discussions, startup innovation forums, hands-on workshops, and high-impact networking opportunities.",
   },
   {
-    question: "What scientific and clinical tracks are featured at MICROBIOME-2026?",
+    question: "What scientific and clinical tracks are featured at MICROBIOME-2027?",
     answer: (
       <>
         You can explore the complete list of summit tracks here:{" "}
@@ -35,7 +35,7 @@ export const faqData = [
           rel="noopener noreferrer"
           className="text-blue-600 underline"
         >
-          MICROBIOME-2026 Tracks
+          MICROBIOME-2027 Tracks
         </a>
         .
       </>
@@ -55,7 +55,7 @@ export const faqData = [
     ),
   },
   {
-    question: "How can I submit an abstract or presentation proposal for MICROBIOME-2026?",
+    question: "How can I submit an abstract or presentation proposal for MICROBIOME-2027?",
     answer: (
       <>
         Abstract and presentation submissions can be made{" "}
@@ -87,14 +87,14 @@ export const faqData = [
       "Standard presentation slots are typically 15–20 minutes, including discussion time. Final presentation guidelines will be shared upon acceptance.",
   },
   {
-    question: "Who should attend MICROBIOME-2026?",
+    question: "Who should attend MICROBIOME-2027?",
     answer:
       "Microbiome researchers, clinicians, gastroenterologists, immunologists, oncologists, biotech professionals, pharmaceutical scientists, AI and data scientists, startups, investors, academicians, and healthcare policymakers.",
   },
   {
-    question: "How many participants are expected at MICROBIOME-2026?",
+    question: "How many participants are expected at MICROBIOME-2027?",
     answer:
-      "MICROBIOME-2026 is expected to host 150+ international participants, including speakers, delegates, exhibitors, startups, and sponsors.",
+      "MICROBIOME-2027 is expected to host 150+ international participants, including speakers, delegates, exhibitors, startups, and sponsors.",
   },
   {
     question: "Can I submit multiple abstracts or proposals?",
