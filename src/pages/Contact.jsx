@@ -1,7 +1,8 @@
 import React, { useState, useRef, useEffect } from "react";
 import axios from "axios";
 import { banner_style } from "../Styles/styles";
-import contact from "../assets/Images1/contact.png"
+import contact from "../assets/Images1/contact.webp";
+
 const ContactForm = () => {
   const [form, setForm] = useState({
     firstName: "",
@@ -188,20 +189,18 @@ const ContactForm = () => {
     : "400px";
 
   return (
-    <div className="w-full 2xl:max-w-[1280px] mx-auto justify-center items-center text-center">
-   <div
-  className={`${banner_style} w-full mx-auto event-partners-banner`}
-  style={{
-    backgroundImage: `url(${contact})`,
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-  }}
-
->
- {/* Changed to style prop if banner_style is an object */} 
-         <h2 className="text-slate-100 text-3xl sm:text-5xl md:text-6xl font-bold">
-          {/* Contact Us */}
-        </h2>
+    <div className="w-full mx-auto justify-center items-center text-center">
+      <div
+        className={`${banner_style} w-full mx-auto event-partners-banner`}
+        style={{
+          backgroundImage: "url('https://images.unsplash.com/photo-1423666639041-f56000c27a9a?q=80&w=2074&auto=format&fit=crop')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        <h1 className="text-slate-100 text-3xl sm:text-5xl md:text-6xl font-bold px-4">
+          Contact Us
+        </h1>
       </div>
 
       <div className="w-full flex flex-col md:flex-row gap-6 py-4 items-stretch justify-center md:px-10 px-4">

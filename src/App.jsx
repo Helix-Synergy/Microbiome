@@ -22,7 +22,8 @@ import AbstractSubmission from "./pages/AbstractSubmission";
 import BrochureDownload from "./pages/BrochureDownload";
 import FAQPage from "./pages/FAQPage";
 import ExecutiveMembers from "./pages/Executive_members";
-import banner from "./assets/banner.jpg"
+import banner from "./assets/banner.webp"
+import ChatbotWidget from "./components/Chatbot/ChatbotWidget";
 function App() {
   const [showMiniNavbar, setShowMiniNavbar] = useState(true);
 
@@ -52,12 +53,13 @@ function App() {
         <Route path="/contact" element={<ContactForm />} />
         <Route path="/microbiome-conference-tracks/"element={<RotatingLogos />} />
         <Route path="/abstract-submission" element={<AbstractSubmission />} />
-        {/* <Route path="/brochure-download" element={<BrochureDownload />} /> */}
+        <Route path="/brochure-download" element={<BrochureDownload />} />
         <Route path="/faq" element={<FAQPage />} />
         <Route path="/event_partners" element={<SponsorshipPackages />} />
         {/* <Route path="/techmatics-orators/:id" element={<OratorDetails />} /> */}
         {/* <Route path="/executive-panel-members/:id" element={<EpmTemplate />} /> */}
       </Routes>
+      <ChatbotWidget />
       <Footer />
     </Router>
        <div
